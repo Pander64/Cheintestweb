@@ -1,0 +1,67 @@
+
+Cheil Examen Frontend 
+El examen está compuesto por dos aplicaciones, un backend escrito en NodeJS el cual expondrá 
+una API REST para la interacción con la aplicación frontend. 
+Para el ejercicio no es necesario nada de diseño gráfico, sin embargo, debe ser responsivo de manera que las páginas se visualicen bien en cualquier pantalla. 
+
+Ejercicio 1: API Rest NodeJS 
+Este punto consiste en armar un API REST en Node.js. El mismo será utilizado en el ejercicio 2. 
+La funcionalidad de listado y filtrado de hoteles debe estar soportada por la API y 
+consumida en la aplicación cliente. 
+A la hora de diseñar la estructura de la aplicación, tener en cuenta factores como 
+escalabilidad, reutilización y separación de responsabilidades. 
+Uso de configuraciones para ajustar como se ejecuta la aplicación en entornos productivos 
+y de desarrollo. 
+
+Ejercicio 2: Frontend 
+Maquetar una página de resultado de hoteles (Mobile y desktop). 
+Consumir la API desarrollada en el ejercicio anterior, implementando las funcionalidades 
+necesarias para listar y filtrar los hoteles. 
+Utilizar alguna librería o framework guiado por componentes (Angular o React). 
+Utilizar algún package manager (npm, bower) para manejar dependencias externas. 
+Utilizar una grilla responsive o similar para el maquetado. 
+Optimizar todos los recursos para entornos de producción (minificar, ofuscar, etc). 
+
+Extras 
+Los puntos extras solo se tomarán en cuenta si las funcionalidades de los puntos anteriores 
+fueron completadas correctamente. 
+Añadir alguna capa de persistencia de datos. 
+Implementar el CRUD de hoteles (solo a nivel API). 
+
+Entrega 
+La entrega se realizará por medio de un repositorio GIT público, usted debe subir su solución al repo y compartirnos la dirección del mismo.
+
+
+
+
+
+
+
+
+
+
+Cheil Examen Backend 
+El examen consiste en realizar una API REST que resuelva las siguientes necesidades:
+    1. Método que devuelva un listado de Hoteles, lista completa sin filtros.
+    2. Método para listar los hoteles filtrando por: Categoría, por calificaciones
+    3. Método que devuelva los hoteles ordenados por Precio (de mayor a menor y/o viseversa).
+    4. Métodos para todo el CRUD de hoteles.
+
+El hotel debe tener los siguientes datos
+    1. HotelID – number.
+    2. HotelName – string.
+    3. Categoria – (de 1 a 5 estrellas)
+    4. Precio – number.
+    5. 3 fotos.
+    6. Calificaciones de Clientes – Cada calidicación es entre 1 y 5 y puede contener un comentario. 
+
+Requerimientos adicinoales:
+    • El API debe ser escrito en .net core v2.2. o superior o con PHP y Laravel.
+    • La base de datos debe ser MySQL o MariaDB.
+
+
+
+Cheil Examen FullStack
+El examenm fullstack consiste en realizar el examen del Front y Back.  
+
+
